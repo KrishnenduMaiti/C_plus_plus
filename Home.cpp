@@ -7,7 +7,7 @@ int main(){
     cout<<"Enter the number of column: ";
     cin>>x;
     cout<<endl;
-    // for roof
+// for roof
     for(int i=1;i<=n;i++){
         for(int j=1;j<=n-i;j++){
             cout<<"  ";
@@ -25,7 +25,7 @@ int main(){
         cout<<endl;
     }
     m-=2;
-    // for mid body
+// for mid body
     for(int i=1;i<=n/2;i++){
         for(int j=1;j<=x;j++){
             cout<<"||";
@@ -38,7 +38,7 @@ int main(){
         }
         cout<<endl;
     }
-    // for door level body
+// for door level body
     for(int i=1;i<=n/2;i++){
         for(int j=1;j<=x;j++){
             cout<<"||";
