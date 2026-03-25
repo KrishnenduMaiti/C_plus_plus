@@ -1,1 +1,2 @@
-# C_plus_plus
+#C++
+This is C++ solved problems.
