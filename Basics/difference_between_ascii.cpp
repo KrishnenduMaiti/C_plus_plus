@@ -7,5 +7,6 @@ int main(){
     cout<<"enter the 2nd letter : ";
     cin>>second;
     int x=(int)first, y=(int)second;
+    cout<<x<<y;
     cout<<"difference = "<<y-x;
 }
